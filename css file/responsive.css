@@ -1,0 +1,445 @@
+@media screen and (max-width: 425px) {
+
+    /* start nav bar  */
+    .nav-bar {
+        background-color: #ad89b6;
+        padding: 5px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .nav-bar .logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: 0.3s;
+    }
+
+    .nav-bar .logo a:hover {
+        color: var(--hover-color)
+    }
+
+    .nav-bar .login {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: white;
+    }
+
+    .nav-bar .login .log {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+        text-transform: capitalize;
+        transition: 0.4s;
+    }
+
+    .nav-bar .login .log:hover {
+        color: var(--hover-color);
+    }
+
+    .nav-bar .login .search {
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    .nav-bar .login .search:hover {
+        color: var(--hover-color)
+    }
+
+    .links {
+        position: relative;
+
+    }
+
+    .links .icon {
+        width: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        direction: rtl;
+        gap: 3px;
+    }
+
+    .links .icon div {
+        height: 3px;
+        background-color: white;
+        width: 100%;
+        transition: 0.5s
+    }
+
+    .links .icon div:nth-child(2) {
+        width: 50%;
+        transition: 0.4s;
+    }
+
+    .links .icon:hover div:first-child {
+        rotate: 45deg;
+    }
+
+    .links .icon:hover div:nth-child(3) {
+        rotate: 125deg;
+    }
+
+    .links .icon:hover div:nth-child(2) {
+        width: 100%
+    }
+
+
+
+    .links ul {
+        position: absolute;
+        right: 0;
+        background-color: rgb(133, 133, 133);
+        width: 210px;
+        top: 30px;
+        list-style: none;
+        z-index: 99;
+        display: none;
+        border-radius: 10px;
+    }
+
+    .links ul::before {
+        content: "";
+        border-width: 10px;
+        border-style: solid;
+        border-color: #0000ff00 #ff000000 #878787 transparent;
+        position: absolute;
+        top: -20px;
+        right: 10px;
+    }
+
+    .links ul li a {
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-transform: capitalize;
+        color: white;
+        transition: 0.5s
+    }
+
+    .links ul li a:hover {
+        padding-left: 35px;
+    }
+
+    .links:hover ul {
+        display: block;
+    }
+
+
+    /* end nav bar  */
+    /* nav two  */
+    .nav-two {
+        display: none;
+    }
+
+    /* nav two  */
+    /* start container-1  */
+    .container-1 {
+
+        padding: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-1 .text {
+        text-align: center;
+    }
+
+    .container-1 .text p {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .container-1 .img-cont-1 {
+        width: 100%;
+    }
+
+    /* end container-1  */
+    /* start container-3  */
+    .container-3 {
+        padding: 10px;
+    }
+
+    .container-3 .p-cont3 {
+        word-spacing: 3.5px;
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+
+    .main-cont3 {
+        flex-direction: column;
+    }
+
+    .left-cont3 {
+        width: 100%;
+    }
+
+    .right-cont3 {
+        width: 100%;
+    }
+
+    /* end container-3  */
+    /* start container-4  */
+    .parts-cont4 .parting-cont4 img {
+        width: 40%;
+    }
+
+    /* end container-4  */
+    /* start container-5  */
+    .persons {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+    /* end container-5  */
+    /* start container-6  */
+    .container-6 .customers {
+
+        gap: 75px;
+        flex-direction: column;
+    }
+
+    .customers .cus {
+        width: 100%;
+    }
+
+    /* end container-6  */
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+
+    /* start nav bar  */
+    .nav-bar {
+        background-color: #ad89b6;
+        padding: 5px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .nav-bar .logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: 0.3s;
+    }
+
+    .nav-bar .logo a:hover {
+        color: var(--hover-color)
+    }
+
+    .nav-bar .login {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: white;
+    }
+
+    .nav-bar .login .log {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+        text-transform: capitalize;
+        transition: 0.4s;
+    }
+
+    .nav-bar .login .log:hover {
+        color: var(--hover-color);
+    }
+
+    .nav-bar .login .search {
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    .nav-bar .login .search:hover {
+        color: var(--hover-color)
+    }
+
+    .links {
+        position: relative;
+
+    }
+
+    .links .icon {
+        width: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        direction: rtl;
+        gap: 3px;
+    }
+
+    .links .icon div {
+        height: 3px;
+        background-color: white;
+        width: 100%;
+        transition: 0.5s
+    }
+
+    .links .icon div:nth-child(2) {
+        width: 50%;
+        transition: 0.4s;
+    }
+
+    .links .icon:hover div:first-child {
+        rotate: 45deg;
+    }
+
+    .links .icon:hover div:nth-child(3) {
+        rotate: 125deg;
+    }
+
+    .links .icon:hover div:nth-child(2) {
+        width: 100%
+    }
+
+
+
+    .links ul {
+        position: absolute;
+        right: 0;
+        background-color: rgb(133, 133, 133);
+        width: 210px;
+        top: 30px;
+        list-style: none;
+        z-index: 99;
+        display: none;
+        border-radius: 10px;
+    }
+
+    .links ul::before {
+        content: "";
+        border-width: 10px;
+        border-style: solid;
+        border-color: #0000ff00 #ff000000 #878787 transparent;
+        position: absolute;
+        top: -20px;
+        right: 10px;
+    }
+
+    .links ul li a {
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-transform: capitalize;
+        color: white;
+        transition: 0.5s
+    }
+
+    .links ul li a:hover {
+        padding-left: 35px;
+    }
+
+    .links:hover ul {
+        display: block;
+    }
+
+
+    /* end nav bar  */
+    /* nav two  */
+    .nav-two {
+        display: none;
+    }
+
+    /* nav two  */
+    /* start container-1  */
+    .container-1 {
+
+        padding: 20px;
+
+        flex-direction: column;
+    }
+
+    .container-1 .text {
+        text-align: center;
+    }
+
+    .container-1 .text p {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .container-1 .img-cont-1 {
+        width: 100%;
+    }
+
+    /* end container-1  */
+    /* start container-3  */
+    .container-3 {
+        padding: 10px;
+    }
+
+    .container-3 .p-cont3 {
+        word-spacing: 3.5px;
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+
+    .main-cont3 {
+        flex-direction: column;
+    }
+
+    .left-cont3 {
+        width: 100%;
+    }
+
+    .right-cont3 {
+        width: 100%;
+    }
+
+    /* end container-3  */
+    /* start container-4  */
+    .parts-cont4 .parting-cont4 img {
+        width: 40%;
+    }
+
+    /* end container-4  */
+    /* start container-6  */
+    .container-6 .customers {
+
+        gap: 75px;
+        flex-direction: column;
+    }
+
+    .customers .cus {
+        width: 100%;
+    }
+    .customers .cus img {
+        width: 100px;
+       
+    }
+
+    /* end container-6  */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* start container-3  */
+    .left-cont3 {
+        width: 50%;
+    }
+
+    /* end container-3  */
+    /* start container-4  */
+    .parts-cont4 .parting-cont4 img {
+        width: 20%;
+    }
+
+    /* end container-4  */
+}
+
+/* @media screen and (min-width: 993px) and (max-width: 1024px) {
+    
+} */
